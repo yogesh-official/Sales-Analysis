@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_782a8c26b08f0099af0f3ddb4c812114 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_782a8c26b08f0099af0f3ddb4c812114" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_782a8c26b08f0099af0f3ddb4c812114 = L.map(
+                "map_782a8c26b08f0099af0f3ddb4c812114",
+                {
+                    center: [45.0, -30.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_928b4e2c2d0b23c83b38e9a310ca2f59 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_928b4e2c2d0b23c83b38e9a310ca2f59.addTo(map_782a8c26b08f0099af0f3ddb4c812114);
+        
+    
+            var circle_marker_1bf4da1ba59a9f584eaf584cbf0549e7 = L.circleMarker(
+                [41.8781, -87.6298],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.863012832, "stroke": true, "weight": 3}
+            ).addTo(map_782a8c26b08f0099af0f3ddb4c812114);
+        
+    
+        var popup_c52d5e0d6434b4c5fc943c9aecd9d609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09d6ebf4f1f9187529d23cb3a53ae6bf = $(`<div id="html_09d6ebf4f1f9187529d23cb3a53ae6bf" style="width: 100.0%; height: 100.0%;">Chicago Sales: $393,150.64</div>`)[0];
+                popup_c52d5e0d6434b4c5fc943c9aecd9d609.setContent(html_09d6ebf4f1f9187529d23cb3a53ae6bf);
+            
+        
+
+        circle_marker_1bf4da1ba59a9f584eaf584cbf0549e7.bindPopup(popup_c52d5e0d6434b4c5fc943c9aecd9d609)
+        ;
+
+        
+    
+    
+            var circle_marker_d5eb61a656c6f572cf3f5f7ea87f6487 = L.circleMarker(
+                [53.4808, -2.2426],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.442660544, "stroke": true, "weight": 3}
+            ).addTo(map_782a8c26b08f0099af0f3ddb4c812114);
+        
+    
+        var popup_450fb6cb803aba8af931870ac6409b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_801e5f9b50fd72e8f26829f961bfaf04 = $(`<div id="html_801e5f9b50fd72e8f26829f961bfaf04" style="width: 100.0%; height: 100.0%;">Manchester Sales: $472,133.03</div>`)[0];
+                popup_450fb6cb803aba8af931870ac6409b5e.setContent(html_801e5f9b50fd72e8f26829f961bfaf04);
+            
+        
+
+        circle_marker_d5eb61a656c6f572cf3f5f7ea87f6487.bindPopup(popup_450fb6cb803aba8af931870ac6409b5e)
+        ;
+
+        
+    
+    
+            var circle_marker_189e3d0de8de51e38e3da91e4dd79d52 = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.727956239999999, "stroke": true, "weight": 3}
+            ).addTo(map_782a8c26b08f0099af0f3ddb4c812114);
+        
+    
+        var popup_847a97b3791050d59ecd40726286e744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd71b9b2877a1d4b2cd45c438b13cf9 = $(`<div id="html_1cd71b9b2877a1d4b2cd45c438b13cf9" style="width: 100.0%; height: 100.0%;">New York Sales: $336,397.81</div>`)[0];
+                popup_847a97b3791050d59ecd40726286e744.setContent(html_1cd71b9b2877a1d4b2cd45c438b13cf9);
+            
+        
+
+        circle_marker_189e3d0de8de51e38e3da91e4dd79d52.bindPopup(popup_847a97b3791050d59ecd40726286e744)
+        ;
+
+        
+    
+    
+            tile_layer_928b4e2c2d0b23c83b38e9a310ca2f59.addTo(map_782a8c26b08f0099af0f3ddb4c812114);
+        
+</script>
+</html>
