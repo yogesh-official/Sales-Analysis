@@ -80,6 +80,38 @@ Contributions, issues, and suggestions are welcome!
 Feel free to open a pull request or create an issue.
 
 ---
+## 🌍 Geographic Sales Visualization
+
+This project includes an interactive geographic sales analysis using Folium Maps.
+
+### Features
+
+* Outlet tier to city mapping
+* Interactive sales visualization
+* Geographic sales distribution
+* Circle markers based on total sales
+* US & UK regional representation
+
+### Technologies Used
+
+* Folium
+* Pandas
+* Python
+* Interactive HTML Maps
+
+### Interactive Map File
+
+`gopuff_sales_map.html`
+
+The interactive map visualizes sales performance across:
+
+* New York (Tier 1)
+* Chicago (Tier 2)
+* Manchester (Tier 3)
+
+This helps identify high-performing business regions and market concentration.
+
+---
 
 ## 📧 Contact
 
